@@ -1,0 +1,19 @@
+.modal {
+    padding: 0;
+    margin: auto;
+    position: fixed;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: fit-content;
+    height: fit-content;
+}
+
+.modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    padding: 20px;
+    min-width: 300px;
+}

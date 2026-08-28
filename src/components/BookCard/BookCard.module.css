@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: var(--primary);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
+}
+
+.card_info {
+    cursor: default;
+}
+
+.card_status {
+    border-radius: 15px;
+    padding: 2px 10px;
+    width: max-content;
+    margin: 10px 0 0;
+    font-size: 15px;
+    color: #fff;
+}
+
+.card_status_read {
+    background-color: var(--read);
+}
+
+.card_status_unread {
+    background-color: var(--unread);
+}
+
+.card_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 5px;
+}
+
+.button {
+    width: max-content;
+    background-color: var(--bg-color-white);
+    border: none;
+    padding: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}

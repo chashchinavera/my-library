@@ -1,0 +1,44 @@
+:root {
+    --primary: #fff;
+    --secondary: #f2ead7;
+    --read: #499448;
+    --unread: #cf7b4e;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary);
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

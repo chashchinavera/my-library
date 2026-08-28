@@ -1,0 +1,64 @@
+.header {
+    background-color: var(--primary);
+    padding: 10px 30px;
+    box-shadow: 0 4px 15px -1px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon {
+    background-image: url("./icons/books.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background-color: var(--secondary);
+    border: 1.5px solid #cbb38b;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+
+.input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 15px;
+    color: #333333;
+}
+
+.input::placeholder {
+    color: #8c857b;
+}
+
+.search:focus-within {
+    border-color: #b5ada3;
+}
+
+@media (max-width: 768px) {}
